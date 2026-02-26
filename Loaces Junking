@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loaces Junking | Cash for Junk Cars in Miami</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      line-height: 1.6;
+    }
+    header {
+      background: #0d1b2a;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('https://images.unsplash.com/photo-1542365887-2d3b9c3a7b14') center/cover no-repeat;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .btn {
+      background: #e63946;
+      color: white;
+      padding: 0.9rem 1.5rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 1rem;
+      border-radius: 6px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      padding: 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      text-align: center;
+    }
+    footer {
+      background: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Loaces Junking</h2>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#how">How It Works</a>
+    <a href="#contact">Get Quote</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Cash for Junk Cars in Miami</h1>
+  <p>Serving Miami & surrounding areas • Free towing • Same-day pay</p>
+  <a href="tel:YOURNUMBER"><button class="btn">Call Now</button></a>
+</section>
+
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Buy Junk Cars</h3>
+      <p>We buy cars, trucks, SUVs, and vans in any condition.</p>
+    </div>
+    <div class="card">
+      <h3>Free Pickup</h3>
+      <p>Fast towing anywhere in the Miami area.</p>
+    </div>
+    <div class="card">
+      <h3>Instant Cash</h3>
+      <p>Get paid on the spot when we pick up your vehicle.</p>
+    </div>
+  </div>
+</section>
+
+<section id="how" class="section">
+  <h2>How It Works</h2>
+  <ol>
+    <li>Call or request a quote online</li>
+    <li>Schedule pickup</li>
+    <li>Get paid instantly</li>
+  </ol>
+</section>
+
+<section id="contact" class="section">
+  <h2>Get Your Free Quote</h2>
+  <p>Serving all of Miami, FL and nearby cities.</p>
+</section>
+
+<footer>
+  <p>© 2026 Loaces Junking • Miami, FL</p>
+</footer>
+
+</body>
+</html>
